@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Admission Form</title>
+<style>
+	.even{cellspacing:40px;}
+	table{margin:0px auto}
+</style>
+</head>
+<body>
+<h1 style="text-align:center">Admission Form</h1>
+	<form>
+	<!--
+	<label for="student_name"> Name </label>
+	<input type="text" id="student_name"><br>
+	<label for="password"> Password</label>
+	<input type="password" id="password"><br>
+	 Gender<label><input name="gender" type="radio">Male</label>
+	<label><input name="gender" type="radio">Female</label><br>
+	Language <br><label><input type="checkbox">Hindi</label>
+		<br><label><input type="checkbox">English</label>
+		<br><label><input type="checkbox">Spanish</label>
+		<br><label><input type="checkbox">Russian</label>
+		<br><label><input type="checkbox">Tamil</label><br>
+		State
+			<select>
+				<option> Select Your State</option>
+				<option> Delhi</option>
+				<option> Bihar</option>
+				<option> Raj</option>
+				<option> UP</option>
+			</select><br>
+			<input type="submit" value="Register">
+			<input type="reset" value="Clear">
+			--!>
+			<table>
+				<tr>
+					<td> <label for="student_name"> Name </label> </td>
+					<td> <input type="text" id="student_name"></td>
+				</tr>
+				<tr>
+					<td><label for="password"> Password</label></td>
+					<td> <input type="password" id="password"> </td>
+				</tr>
+			
+				<tr>
+					<td>Gender</td>
+					<td> <br><label><input name="gender" type="radio">Male</label><br>
+					<label><input name="gender" type="radio">Female</label></td>
+				</tr>
+				
+				<tr>
+					<td>Language </td>
+					<td><br><label><input type="checkbox">Hindi</label>
+					<br><label><input type="checkbox">English</label>
+					<br><label><input type="checkbox">Spanish</label>
+					<br><label><input type="checkbox">Russian</label>
+					<br><label><input type="checkbox">Tamil</label> </td>
+				</tr>
+				
+				<tr>
+					<td>
+					State
+					</td>
+					<td>
+					<select>
+					<br><option> Select Your State</option>
+					<br><option> Delhi</option>
+					<br><option> Bihar</option>
+					<br><option> Raj</option>
+					<br><option> UP</option>
+					</select> 
+					</td>
+				</tr>
+				<tr>
+					<br><td class="even"><input type="submit" value="Register"></td>
+					<br><td class="even"><input type="reset" value="Clear"> </td>
+				</tr>
+				<tr>
+					<td>
+					Select file
+					</td>
+					<td>
+						<input type="file">
+					</td>
+				</tr>
+				<tr>
+					<td>
+					Type Your Email
+					</td>
+					<td>
+						<input type="email">
+					</td>
+				</tr>
+				<tr>
+				<td>
+					Enter Mobile No
+					</td>
+					<td>
+						<input type="number" min="1000000000" max="9999999999">
+					</td>
+				</tr>
+				<tr>
+					<td>
+					Text Area
+					</td>
+					<td>
+						<textarea rows="10" cols="30"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>
+					Type Your Name
+					</td>
+					<td>
+						<input type="text" placeholder="Enter your full name" required="required">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Hidden Content
+					</td>
+					<td>
+						<input type="hidden" value="" name="">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						Readonly Text
+					</td>
+					<td>
+						<input type="text" readonly value="khushwant singh">
+					</td>
+				</tr>
+			</table>
+	</form>
+</body>
+</html>
